@@ -6,7 +6,12 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 10vh;
+    position: relative;
 }
+
+html, body {
+    overflow-x: hidden;
+  }
 
 nav{
     width: 100%;
