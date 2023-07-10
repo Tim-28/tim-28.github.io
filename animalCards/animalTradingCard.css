@@ -243,69 +243,69 @@ sup {
 }
 
 #tiger-inner {
-    color: #ffc14e;
+    color: #8f5d00;
     height: 375px;
     border: solid #8f5d00 1px;
     padding:1em;
     margin: 1em;
     border-radius: 7%;
-    backdrop-filter: blur(10px) brightness(40%);
+    background-color: rgb(255, 240, 200);
     line-height: 20px;
 }
 
 #cardinal-inner {
-    color: #fec6c6;
+    color: #cb0101;
     height: 375px;
     border: solid #cb0101 1px;
     padding:1em;
     margin: 1em;
     border-radius: 7%;
     backdrop-filter: blur(10px);
-    backdrop-filter: blur(10px) brightness(40%);
+    background-color: #fdd7d7;
     line-height: 20px;
 }
 
 #elephant-inner {
-    color: #cfcdcd;
+    color: #464646;
     height: 375px;
     border: solid #464646 1px;
     padding:1em;
     margin: 1em;
     border-radius: 7%;
-    backdrop-filter: blur(10px) brightness(40%);
+    background-color: #e2e1e1;
     line-height: 20px;
 }
 
 #giraffe-inner {
-    color: #fcf597;
+    color: #9c7801;
     height: 375px;
     border: solid #9c7801 1px;
     padding:1em;
     margin: 1em;
     border-radius: 7%;
-    backdrop-filter: blur(10px) brightness(40%);
+    background-color: #fffbd3;
     line-height: 20px;
 }
 
 #kangaroo-inner {
-    color: #fedb95;
+    color: #976603;
     height: 375px;
     border: solid #976603 1px;
     padding:1em;
     margin: 1em;
     border-radius: 7%;
-    backdrop-filter: blur(10px) brightness(40%);
+    background-color: #fff0d3;
     line-height: 20px;
 }
 
 #flamingo-inner {
-    color: #ffd7de;
+    color: #ff1e43;
     height: 375px;
     border: solid #ff1e43 1px;
     padding:1em;
     margin: 1em;
     border-radius: 7%;
-    backdrop-filter: blur(10px) brightness(40%);
+    background-color: #ffebee;
     line-height: 20px;
 }
 
