@@ -1,5 +1,10 @@
 body {
     background-color: #F1FAEE;
+    position: relative;
+}
+
+body, html {
+    overflow-x: hidden;
 }
 
 nav{

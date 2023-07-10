@@ -3,7 +3,12 @@ body {
         to bottom right,
         #3b3a3a, #a9a9a9
     );
+    position: relative;
 }
+
+html, body {
+    overflow-x: hidden;
+  }
 
 nav{
     width: 100%;
