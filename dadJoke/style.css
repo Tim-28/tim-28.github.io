@@ -1,5 +1,5 @@
 body {
-    background-color: #008456;
+    background-color: #fffef6;
     position: relative;
 }
 
@@ -20,7 +20,7 @@ nav{
 }
 
 #mainNavbar{
-    background-color: #ffffff;
+    background-color: #fffef6;
 }
 
 #mainNavbar .nav-link{
@@ -36,30 +36,31 @@ nav{
     font-family:Arial, Helvetica, sans-serif;
     font-weight: 500;
     background-color: #a10a10;
-    color:#ffffff;
+    color:#fffef6;
     letter-spacing: 1px;
     border-left: solid 3px #00008b;
     padding-right: 25px;
     margin-right: 20px;
 }
 
-
 #mainNavbar .nav-link:last-child:hover{
  
     color: #a10a10;
-    background-color:#ffffff;
+    background-color:#fffef6;
 }
 
 #mainNavbar .nav-link:hover{
     background-color: #a10a10;
-    color:#ffffff; 
+    color:#fffef6; 
 }
+
 #mainNavbar .navbar-toggler{
-    background-color:#dcddf6;
+    background-color:#fffef6;
     align-items: left;
 }
+
 #mainNavbar .navbar-toggler:hover{
-    background-color:#fdfbda;
+    background-color:#fffef6;
 }
 
 .dropdown-menu {
@@ -82,11 +83,11 @@ nav{
 
 .dropdown-item:hover {
     background-color:#a10a10;
-    color: #ffffff;
+    color: #fffef6;
 }
 
 .navbar-toggler-icon {
-    background-color: #ffffff;
+    background-color: #fffef6;
 }
 
 .nav-link.dropdown-toggle {
@@ -94,19 +95,19 @@ nav{
 }
 
 h1 {
-    color: #FED41C;
+    color:#a10a10;;
     font-family: 'Inknut Antiqua', serif;
     font-family: 'Marcellus', serif;
 }
 
 h2 {
-    color: #FED41C;
+    color:#a10a10;;
     font-family: 'Inknut Antiqua', serif;
     font-family: 'Marcellus', serif; 
 }
 
 h4 {
-    color: #FED41C;
+    color:#a10a10;;
     font-weight: 600;
     font-family: 'Inknut Antiqua', serif;
     font-family: 'Marcellus', serif;
@@ -123,6 +124,17 @@ img {
     border-radius: 10px;
 }
 
+#fatherSon {
+    width:225px;
+    height: auto;
+    border-radius: 10px;
+    filter: drop-shadow(10px 10px 4px #999999);   
+}
+
+#card {
+    border: solid 3px #a10a10;
+}
+
 ul {
     display: flex;
     flex-direction: column;
@@ -135,31 +147,29 @@ ul {
     max-height: 500px;
     margin-bottom: 15px;
 }
+
 li {
     list-style: none;
-    color: #008456;
+    color: #a10110;
     font-size:x-large;
     vertical-align: middle;
     text-align: center;
-} */
-
-#btn-container{
-    background-color: #cffbec;
 }
 
 button {
-    color: #FED41C;
-    background-color: #ED3A42;
-    border-color: #ED3A42;
+    color:#ffffff;;
+    background-color: #a10a10;
+    border-color: #a10a10;
     border-radius: 10px;
     width: 75px;
     align-self: center;
     vertical-align: bottom;
     position: relative;
+    margin-bottom: 1em;
 }
 
 button:hover {
-    color: #ffdc43;
+    color: #ffffff;
     background-color: #d0000a;
     border-color:#d0000a;
     -ms-transition: background-color 250ms linear;
@@ -167,8 +177,8 @@ button:hover {
 }
 
 button:active {
-    color: #ED3A42;
-    background-color: #FED41C;
+    color: #ffffff;
+    background-color: #a10a10;;
 }
 
 footer {
@@ -200,14 +210,6 @@ a:link {
 
 a:hover {
     text-decoration: underline;
-}
-
-#mainNavbar .navbar-toggler{
-    background-color: #ffffff;
-}
-
-#mainNavbar .navbar-toggler:hover{
-    background-color: #f0f0f0;
 }
 
 @media(min-width: 900px){}
