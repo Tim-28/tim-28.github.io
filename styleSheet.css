@@ -228,9 +228,17 @@ h3 {
     border-radius: 5%;
 }
 
+.form-control {
+    border: solid 2px #000000;
+}
+
+.form-control, .form-label {
+    margin: .5em;
+}
+
 footer {
     font-family: 'Roboto Slab', serif;
-    color: #fff;
+    color: #ffffff;
     padding: 20px;
     /* position: fixed; */
     left: 0;
