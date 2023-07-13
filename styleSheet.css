@@ -283,8 +283,13 @@ footer {
     text-decoration: none;
 }
 
-#email {
+#email{
     color:#ffffff;
+}
+
+a[href^="tel"]{
+    color:inherit;
+    text-decoration:none;
 }
 
 a:link {
