@@ -181,10 +181,24 @@ button:active {
     background-color: #a10a10;;
 }
 
+#pre-footer {
+    background-color: #edf2f4;
+    text-align: center;
+}
+
+.pre-footer p {
+    color:#000000;
+}
+
+#pre-footer img {
+    width: 7em;
+}
+
 footer {
-    font-family: 'Roboto Slab', serif;
-    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #ffffff;
     padding: 20px;
+    /* position: fixed; */
     left: 0;
     bottom: 0;
     width: 100%;
@@ -192,10 +206,19 @@ footer {
     background-color: #a10a10;
 }
 .footer-text {
-    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
     padding: 0;
     font-size: medium;
     color:#ffffff;
+}
+
+#footer-contact {
+    margin-right: 3em;
+    margin-left: 3em;
+}
+
+#footer-logo{
+    width: 3em;
 }
 
 .footer-link {
@@ -204,8 +227,17 @@ footer {
     text-decoration: none;
 }
 
+#email {
+    color:#ffffff;
+}
+
 a:link {
     text-decoration: none;
+}
+
+.service-logo {
+    display: flex;
+    justify-content: center;
 }
 
 a:hover {
