@@ -94,6 +94,19 @@ nav{
     font-size: 70%;
 }
 
+.description {
+    height: 12em;
+    color:#a10a10;
+    background: linear-gradient(
+        to top right,
+        #f8f6f6, #acaaaa
+    );
+}
+
+.description li {
+    font-size: 16px;
+}
+
 h1 {
     color:#a10a10;;
     font-family: 'Inknut Antiqua', serif;
