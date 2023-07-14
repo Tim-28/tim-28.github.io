@@ -28,7 +28,6 @@ nav{
     font-weight: 500;
     color:#a10a10;
     letter-spacing: 1px;
-    /* border-left: solid 3px #00008b; */
     margin-right: 20px;
 }
 
@@ -256,10 +255,8 @@ a:link {
     text-decoration: none;
 }
 
-@media(min-width: 900px){}
-
-@media(max-width: 992px){
+@media(max-width: 1102px) {
     #mainNavbar .nav-link{
-    border-left: none;
-    }
+        margin: 0px;
+}
 }

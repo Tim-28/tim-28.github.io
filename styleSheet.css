@@ -35,7 +35,6 @@ nav{
     font-weight: 500;
     color:#a10a10;
     letter-spacing: 1px;
-    /* border-left: solid 3px #00008b; */
     margin-right: 20px;
 }
 
@@ -45,7 +44,6 @@ nav{
     background-color: #a10a10;
     color:#ffffff;
     letter-spacing: 1px;
-    /* border-left: solid 3px #00008b; */
     padding-right: 25px;
     margin-right: 20px;
 }
@@ -60,12 +58,6 @@ nav{
     background-color: #a10a10;
     color:#ffffff; 
 }
-/* #mainNavbar .navbar-toggler{
-    background-color:#dcddf6;
-}
-#mainNavbar .navbar-toggler:hover{
-    background-color:#fdfbda;
-} */
 
 .dropdown-item {
     font-family:Arial, Helvetica, sans-serif;
@@ -87,25 +79,8 @@ ol, ul {
 	list-style: none;
     padding: 0;
 }
-/* blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-html{
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-} */
 
 h1{
-    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     text-align: center;
     color:#a10a10;
     font-size: clamp(1.8em,calc(1em + 2.4vw),3em);
@@ -169,7 +144,6 @@ p {
 }
 
 h3 {
-    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
     font-size: larger;
     color: #040241;
     font-weight: 700;
@@ -324,21 +298,13 @@ a:hover {
 #send-button {
     margin-bottom: 5em;
 }
-/* @media(min-width: 900px){} */
-/* @media(max-width: 1104px){
-    .navbar-nav{
-    border-left: none;
-    }
-} @media (max-width: 1104px) {
-    .navbar-nav {
-      display: none;
-    }
-    
-    .navbar-nav {
-      display: block;
-    }
 
-    .navbar-toggler-icon{
-        display:block;
+@media(max-width: 1102px) {
+
+    .organization .col-md-6.service-form.text-left, .employer .col-md-6{
+        text-align: center;
     }
-  } */
+    .nav-link{
+        margin-right: 0px;
+}
+}
