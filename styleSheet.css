@@ -80,6 +80,11 @@ ol, ul {
     padding: 0;
 }
 
+hr {
+    margin-top: 5em;
+    margin-bottom: 0em;
+}
+
 h1{
     text-align: center;
     color:#a10a10;
@@ -87,13 +92,17 @@ h1{
     font-weight: 900;
     letter-spacing: 2px;
     display: block;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     padding-top: 40px;
 
 }
 #myPic {
     width: 500px;
     border-radius: 10% 30% 50% 70%;
+}
+
+.spacer {
+    padding: 0px 0px 85px 0px;
 }
 
 h2 {
