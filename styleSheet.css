@@ -133,6 +133,14 @@ p {
     margin-bottom: 15px;
 }
 
+.employer .col-md-6.description {
+    padding-left: 10em;
+}
+
+.organization .col-md-6.service-form {
+    padding-left: 10em;
+}
+
 .course{
     margin-top: 15px;
     margin-bottom: 15px;    
@@ -144,11 +152,15 @@ p {
 }
 
 h3 {
-    font-size: larger;
+    /* font-size: larger; */
     color: #040241;
     font-weight: 700;
     letter-spacing: 1px;
     padding: 5px;
+}
+
+h5 {
+padding-left: 3px;
 }
 
 .container-fluid {
@@ -194,14 +206,6 @@ h3 {
     padding: 25px 25px 25px;
 }
 
-/* .service-logo {
-    padding: 0 60px 0 0;
-    align-items: center;
-}
-.service-form {
-    padding: 0 0 0 60px;
-} */
-
 #library-pic {
     border-radius: 5%;
 }
@@ -224,6 +228,7 @@ h3 {
     font-family: 'Roboto Slab', serif;
     font-size: 1em;
     color:#000000;
+    line-height: 1.5em;
     margin: 0;
 }
 
@@ -235,7 +240,6 @@ footer {
     font-family:Arial, Helvetica, sans-serif;
     color: #ffffff;
     padding: 20px;
-    /* position: fixed; */
     left: 0;
     bottom: 0;
     width: 100%;
@@ -300,11 +304,20 @@ a:hover {
 }
 
 @media(max-width: 1102px) {
-
     .organization .col-md-6.service-form.text-left, .employer .col-md-6{
         text-align: center;
     }
     .nav-link{
         margin-right: 0px;
 }
+}
+
+@media(max-width: 768px) {
+    .employer .col-md-6.description {
+        padding-left: 0em;
+    }
+    
+    .organization .col-md-6.service-form {
+        padding-left: 0em;
+    }
 }
