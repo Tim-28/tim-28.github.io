@@ -80,11 +80,6 @@ ol, ul {
     padding: 0;
 }
 
-hr {
-    margin-top: 5em;
-    margin-bottom: 0em;
-}
-
 h1{
     text-align: center;
     color:#a10a10;
@@ -92,17 +87,13 @@ h1{
     font-weight: 900;
     letter-spacing: 2px;
     display: block;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     padding-top: 40px;
 
 }
 #myPic {
     width: 500px;
     border-radius: 10% 30% 50% 70%;
-}
-
-.spacer {
-    padding: 0px 0px 85px 0px;
 }
 
 h2 {
@@ -161,15 +152,11 @@ p {
 }
 
 h3 {
-    /* font-size: larger; */
+    font-size: larger;
     color: #040241;
     font-weight: 700;
     letter-spacing: 1px;
     padding: 5px;
-}
-
-h5 {
-padding-left: 3px;
 }
 
 .container-fluid {
@@ -237,7 +224,6 @@ padding-left: 3px;
     font-family: 'Roboto Slab', serif;
     font-size: 1em;
     color:#000000;
-    line-height: 1.5em;
     margin: 0;
 }
 
