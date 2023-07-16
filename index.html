@@ -4,227 +4,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tim Craig's Portfolio</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <link rel="stylesheet" href="styleSheet.css">
+    <title>Dad Jokes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
-    <link rel="icon" href="photos/topLogo.png">
+    <link rel="icon" href="../photos/topLogo.png">
 </head>
 <body>
     <nav id="mainNavbar" class="navbar sticky-top navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img id="logo" src="photos/topLogo.png" alt="Logo"><img id="logoName" src="photos/name.png" alt="Logo"></a>
+          <a class="navbar-brand" href="../index.html"><img id="logo" src="../photos/topLogo.png" alt="Logo"><img id="logoName" src="../photos/name.png" alt="Logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
-                    <a class="nav-link" href="#">Home</a>
-                    <a class="nav-link" href="about.html">About</a>
-                    <a class="nav-link d-none d-sm-block" href="#experience">Experience</a>
-                    <a class="nav-link d-none d-sm-block" href="#education">Education</a>
-                    <a class="nav-link d-none d-sm-block" href="#service">Service</a>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Projects
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="toDoList/index.html">To Do List</a></li>
-                            <li><a class="dropdown-item" href="dadJoke/index.html">Dad Joke App</a></li>
-                            <li><a class="dropdown-item" href="animalCards/index.html">Animal Trading Cards</a></li>
-                        </ul>
-                    </li>
-                    <a class="nav-link" href="contact.html"><span id="contact">Contact Me</span></a>
+                <a class="nav-link" href="../index.html">Home</a>
+                <a class="nav-link" href="../about.html">About</a>
+                    <a class="nav-link d-none d-sm-block" href="../index.html#experience">Experience</a>
+                    <a class="nav-link d-none d-sm-block" href="../index.html#education">Education</a>
+                    <a class="nav-link d-none d-sm-block" href="../index.html#service">Service</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Projects
+                    </a>
+                    <ul class="dropdown-menu" id="dropdown-menu">
+                      <li><a class="dropdown-item" href="../toDoList/index.html">To Do List</a></li>
+                      <li><a class="dropdown-item" href="../dadJoke/index.html">Dad Joke App</a></li>
+                      <li><a class="dropdown-item" href="../animalCards/index.html">Animal Trading Cards</a></li>
+                    </ul>
+                  </li>
+                  <a class="nav-link" id="contact1" href="../contact.html"><span id="contact">Contact Me</span></a>
                 </div>
-            </div>
+          </div>
         </div>
     </nav>
-    <h1 class="block-center">Web Development</h1>
-    <section class="container-fluid px-0">
-        <div class="row align-items-center">
-            <div class="col-md-6 text-left">
-                <p>Hey, I'm Tim! Thank you for visiting my site.</p>
-                <p>If you're seeking a web developer with a desire to help you succeed, I would love to serve your team!</p>
-                <div class="social col-md-6 align-items-center">
-                    <a href="https://www.linkedin.com/in/tim-craig-b41298121/"><img class="icon" src="photos/linkedIn.png" alt="Linked In"></a>
-                    <a href="https://twitter.com/TimCraigHD"><img class="icon" src="photos\twitterlogo.png" alt="twitter logo"></a>
-                    <a href="https://github.com/Tim-28"><img class="icon" src="photos/github.png" alt="github logo"></a>
-                </div>
-            </div>
-            <div class="col-md-6 d-flex justify-content-center align-items-center"> 
-                <img id="myPic" src="photos\MyPic.jpg" alt="Tim's Photo" class="img-fluid">
-            </div>
-        </div>
-    </section>
-
-    <div class="container">
-        <div class="employer">
-            <h2 id="experience">Experience</h2>
-            <section class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-md-6 text-center">
-                        <img src="bizImgs/Shilohlogo.png" alt="Shiloh Logo" class="img-fluid">
-                    </div>
-                    <div class="col-md-6 description">
-                        <h4>Director of Stewardship</h4>
-                        <ul>
-                            <li class="skills">Wordpress Website</li>
-                            <li class="skills">Built Webpages</li>
-                            <li class="skills">HTML & CSS</li>
-                            <li class="skills">Microsoft Excel, Powerpoint, Word, Publisher</li>
-                            <li class="time">22 years</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <div class="employer">
-            <section class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-md-6 text-center">
-                        <img src="bizImgs/petersLogo.png" alt="Peters Logo"class="img-fluid">
-                    </div>
-                    <div class="col-md-6 description">
-                        <h4>Installation Technician</h4>
-                        <ul>
-                            <li class="skills">Split Systems</li>
-                            <li class="skills">Ductless Minisplits</li>
-                            <li class="skills">System Switchouts</li>
-                            <li class="skills">EPA Section 608 Technician Certification</li>
-                            <li class="time">8 Months</li>
-                        </ul>
-                    </div>
-                </div>
-            </Section>
-        </div>
-        <div class="employer">
-            <section class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-md-6 text-center">
-                        <img src="bizImgs/boarmaxLogo.png" alt="Boarmax Logo" class="img-fluid">
-                    </div> 
-                    <div class="col-md-6 description">
-                        <h4>Lab Technician</h4>
-                        <ul>
-                            <li class="skills">Database Entry & Retrieval</li>
-                            <li class="skills">Cell Analysis</li>
-                            <li class="skills">Quality Control</li>
-                            <li class="time">8 Months</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
+    <div class="description text-center">
+        <p>This project includes:</p>
+        <ul>
+            <li>Asynchronous functions in Javascript.</li>
+            <li>Application Programming Interface (API) to retrieve data.</li>
+            <li>The Axios library.</li>
+            <li>Query Selectors and creating elements with the Document Object Model.</li>
+        </ul>
         </div>
     </div>
-    <div class="container">      
-        <div class="course">
-            <h2 id="education">Education</h2>
-            <section class="container-fluid">
-                <div class="row">
-                    <!-- <div class="col-3"></div> -->
-                    <div class="col-md-6 text-center">
-                        <ul>
-                            <li class="school">University of Missouri</h3>
-                            <li class="degree">Bachelor of Science in Education</li>
-                            <li class="skills">Secondary Language Arts</li>
-                            <li class="completed">Completed: 1998</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6 text-center">
-                        <ul>
-                            <li class="school">Udacity</li>
-                            <li class="degree">Intro to Programming Nanodegree</li>
-                            <li class="skills">HTML, CSS, Python, & Javascript</li>
-                            <li class="completed">Completed: 2023</li>
-                        </ul>
-                    </div>
-                    <!-- <div class="col-3"></div> -->
-                </div>
-            </section>
+    <div class="container mt-3 mb-3">
+    <div class="container" id="headers">
+        <div class="row justify-content-center">
+            <div class="col">    
+                <h1 class="display-3 text-center">"Dad Jokes Delight the Soul of a Child..."</h1>
+                <h2 class="display-4 text-end">-Benjamin Franklin*</h2>
+                    <h4 class="text-center">*No evidence he really said this.<img id="laughing" src="laughEmoji.png" alt="Laughing Emoji"></h4>
+                        <img id="fatherSon" class="mx-auto d-block" src="fatherson.png" alt="father and son walking hand-in-hand">
+            </div>
         </div>
-        <div class="course">
-            <section class="container-fluid">
-                <div class="row">
-                    <!-- <div class="col-3"></div> -->
-                    <div class="col-md-6 text-center">
-                        <ul>
-                            <li class="school">Udemy</li>
-                            <li class="degree">Web Developers Course 2023 - Colt Steele</li>
-                            <li class="skills">HTML, CSS, Bootstrap, Javascript, Git, DOM,</li>
-                            <li class="skills">AJAX/AJAJ, API's, NodeJs, Express, MongoDB </li>
-                            <li class="completed">In Progress</li>
-                        </ul>
-                    </div>    
-                    <!-- <div class="col-3"></div> -->
-                    <div class="col-md-6 text-center">
-                        <ul>
-                            <li class="school">Free Code Camp</li>
-                            <li class="degree">Responsive Web Design</li>
-                            <li class="skills">HTML, CSS, & Javascript</li>
-                            <li class="completed">Completed: 2023</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </div>
-    <div class="container">
-        <h2 id="service">Service</h2>
-        <div class="organization">
-            <section class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-md-6 text-center service-logo">
-                        <img src="bizImgs/sccLogo.png" alt="Shelbina Christian Church" class="img-fluid">
-                    </div>
-                    <div class="col-md-6 service-form text-left">
-                        <h4>Shelbina Christian Church</h4>
-                        <h5>Deacon</h5>
-                        <ul>
-                            <li class="skills">Construction</li>
-                            <li class="skills">Maintenance</li>
-                            <li class="skills">Teacher</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <div class="organization">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-md-6 text-center service-logo">
-                        <img src="bizImgs/rohLogo.png" alt="Ray of Hope" class="img-fluid">
-                    </div>
-                    <div class="col-md-6 service-form text-left">
-                        <h4>Ray of Hope</h4>
-                        <h5>Volunteer</h5>
-                        <ul>
-                            <li class="skills">Construction</li>
-                        </ul>
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <div class="card d-flex mt-3" id="card">
+                    <ul id="container">
+                        
+                    </ul>
+                    <div class="text-center" id="btn-container">
+                        <button class="mt-auto" id="btn">Click</button>
                     </div>
                 </div>
             </div>
+            <div class="col-md-4"></div>
         </div>
-        <div class="organization">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                        <div class="col-md-6 text-center service-logo">
-                            <img src="bizImgs/libraryLogo.png" id="library-pic" alt="Shelbina Carnegie Public Library" class="img-fluid">
-                        </div>
-                    <div class="col-md-6 service-form text-left">
-                        <h4>Shelbina Carnegie Public Library</h4>
-                        <h5>Boardmember</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
     </div>
+    </div>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
     <div class="pre-footer" id="pre-footer">
         <div class="row justify-content-center">
             <div class="col-md-3"></div>
             <div class="col-md-6">
-            <a class="justify-content-center"><img src="photos/topLogo.png" alt="Tim's logo"></a>
+            <a class="justify-content-center"><img src="../photos/topLogo.png" alt="Tim's logo"></a>
             <p>Contact me today to learn more about how I can serve you.</p>
             </div>
             <div class="col-md-3"></div>
@@ -237,7 +98,7 @@
                     <span class="footer-text" id="phone">573-795-0055</span>
                 </div>
                 <div class="col-md-4 order-1 order-md-2 text-center">
-                    <span><a class="footer-text" id="footer-contact" href="contact.html">Contact Me</a></span>
+                    <span><a class="footer-text" id="footer-contact" href="../contact.html">Contact Me</a></span>
                 </div>
                 <div class="col-md-4 order-3 order-md-3 text-center">
                     <a id="email" href="mailto:timcraig07@gmail.com? subject=subject text">timcraig07@gmail.com</a>
@@ -245,9 +106,5 @@
             </div>
         </div>
     </footer>
-    
-<script src="app.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
 </body>
 </html>
