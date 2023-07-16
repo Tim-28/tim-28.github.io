@@ -1,0 +1,264 @@
+body {
+    background-color: #fffef6;
+    position: relative;
+}
+
+body, html {
+    overflow-x: hidden;
+}
+
+nav{
+    width: 100%;
+}
+
+#logoName {
+    width: 200px;
+}
+
+#logo {
+    width: 75px;
+}
+
+#mainNavbar{
+    background-color: #fffef6;
+}
+
+#mainNavbar .nav-link{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color:#a10a10;
+    letter-spacing: 1px;
+    margin-right: 20px;
+}
+
+#mainNavbar .nav-link:last-child{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    background-color: #a10a10;
+    color:#fffef6;
+    letter-spacing: 1px;
+    /* border-left: solid 3px #00008b; */
+    padding-right: 25px;
+    margin-right: 20px;
+}
+
+#mainNavbar .nav-link:last-child:hover{
+ 
+    color: #a10a10;
+    background-color:#fffef6;
+}
+
+#mainNavbar .nav-link:hover{
+    background-color: #a10a10;
+    color:#fffef6; 
+}
+
+#mainNavbar .navbar-toggler{
+    background-color:#fffef6;
+    align-items: left;
+}
+
+#mainNavbar .navbar-toggler:hover{
+    background-color:#fffef6;
+}
+
+/* .dropdown-menu ul {
+    padding-bottom: 0;
+    margin-bottom: 0;
+} */
+
+#dropdown-menu {
+    padding-bottom: 0;
+    margin-bottom: 0;
+    min-height: 8em;
+}
+
+.dropdown-item {
+    color:#a10a10;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+    font-size: 70%;
+    text-align: left;
+}
+
+.dropdown-item:hover {
+    background-color:#a10a10;
+    color: #fffef6;
+}
+
+.navbar-toggler-icon {
+    background-color: #fffef6;
+}
+
+.nav-link.dropdown-toggle {
+    font-size: 70%;
+}
+
+.description {
+    height: 12em;
+    color:#a10a10;
+    background: linear-gradient(
+        to top right,
+        #f8f6f6, #acaaaa
+    );
+}
+
+.description li {
+    font-size: 16px;
+}
+
+h1 {
+    color:#a10a10;;
+    font-family: 'Inknut Antiqua', serif;
+    font-family: 'Marcellus', serif;
+}
+
+h2 {
+    color:#a10a10;;
+    font-family: 'Inknut Antiqua', serif;
+    font-family: 'Marcellus', serif; 
+}
+
+h4 {
+    color:#a10a10;;
+    font-weight: 600;
+    font-family: 'Inknut Antiqua', serif;
+    font-family: 'Marcellus', serif;
+    letter-spacing: 1px;
+}
+
+#laughing {
+    width:50px;
+}
+
+img {
+    width:225px;
+    height: auto;
+    border-radius: 10px;
+}
+
+#fatherSon {
+    width:225px;
+    height: auto;
+    border-radius: 10px;
+    filter: drop-shadow(10px 10px 4px #999999);   
+}
+
+#card {
+    border: solid 3px #a10a10;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 0;
+    /* min-height: 8em; */
+    min-height: 10em;
+    max-height: 500px;
+    margin-bottom: 15px;
+}
+
+li {
+    list-style: none;
+    color: #a10110;
+    font-size:x-large;
+    vertical-align: middle;
+    text-align: center;
+}
+
+button {
+    color:#ffffff;;
+    background-color: #a10a10;
+    border-color: #a10a10;
+    border-radius: 10px;
+    width: 75px;
+    align-self: center;
+    vertical-align: bottom;
+    position: relative;
+    margin-bottom: 1em;
+}
+
+button:hover {
+    color: #ffffff;
+    background-color: #d0000a;
+    border-color:#d0000a;
+    -ms-transition: background-color 250ms linear;
+    transition: background-color 250ms linear;
+}
+
+button:active {
+    color: #ffffff;
+    background-color: #a10a10;;
+}
+
+#pre-footer {
+    background-color: #edf2f4;
+    text-align: center;
+}
+
+.pre-footer p {
+    font-family: 'Roboto Slab', serif;
+    color:#000000;
+    line-height: 2.5em;
+}
+
+#pre-footer img {
+    width: 7em;
+}
+
+footer {
+    font-family:Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    padding: 20px;
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border-top: solid 3px #000000;
+    background-color: #a10a10;
+    line-height: 2em;
+}
+.footer-text {
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 0;
+    font-size: medium;
+    color:#ffffff;
+}
+
+#footer-contact {
+    margin-right: 3em;
+    margin-left: 3em;
+}
+
+#footer-logo{
+    width: 3em;
+}
+
+.footer-link {
+    line-height: 2;
+    padding-left: 50%;
+    text-decoration: none;
+}
+
+#email{
+    color:#ffffff;
+}
+
+a[href^="tel"]{
+    color:inherit;
+    text-decoration:none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+@media(max-width: 1102px) {
+    #mainNavbar .nav-link{
+        margin: 0px;
+}
+}
