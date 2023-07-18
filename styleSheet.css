@@ -80,6 +80,10 @@ hr {
     margin-bottom: 3em;
 }
 
+#greeting {
+    margin-left: 7em;
+}
+
 ol, ul {
 	list-style: none;
     padding: 0;
@@ -319,5 +323,21 @@ a:hover {
     
     .organization .col-md-6.service-form {
         padding-left: 0em;
+    }
+
+    .course{
+        margin-top: 0px;
+        margin-bottom: 0px;    
+    }
+
+    #social{
+        text-align: center;
+    }
+
+}
+
+@media(max-width: 1200px) {
+    #greeting {
+        margin-left: 0em;
     }
 }
