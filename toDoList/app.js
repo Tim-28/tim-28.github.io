@@ -18,18 +18,9 @@ form.addEventListener('submit', function(e){
         delBtn.textContent = 'Remove'
         newLi.append(delBtn);
 
-    // cb.addEventListener('change', function(e){
-    //     if(e.target.checked) {
-    //     newLi.style.color = '#A8DADC';
-    // } else {
-    //     newLi.style.color = '#457B9D';
-    // }
-
     delBtn.addEventListener('click', function(){
         console.log('CLICKED');
         newLi.remove();
     })
 }
 );
-
-// });
