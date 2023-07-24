@@ -1,280 +1,305 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tim Craig Web Developer</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Cards - Tim Craig</title>
     <link rel="stylesheet" href="styleSheet.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
-    <link rel="icon" href="photos/topLogo.png">
+	<link rel="icon" href="../photos/topLogo.png">
 </head>
 <body>
-    <!-- Navbar -->
-    <nav id="mainNavbar" class="navbar sticky-top navbar-expand-lg">
+	<!-- Navbar -->
+	<nav id="mainNavbar" class="navbar sticky-top navbar-expand-lg">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img id="logo" src="photos/topLogo.png" alt="Logo"><img id="logoName" src="photos/name.png" alt="Logo"></a>
+          <a class="navbar-brand" href="../index.html"><img id="logo" src="../photos/topLogo.png" alt="Logo"><img id="logoName" src="../photos/name.png" alt="Logo"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ms-auto">
-                    <a class="nav-link" href="photos/resume.pdf">Resume</a>
-                    <a class="nav-link" href="#">Home</a>
-                    <a class="nav-link" href="about.html">About</a>
-                    <a class="nav-link d-none d-sm-block" href="#experience">Experience</a>
-                    <a class="nav-link d-none d-sm-block" href="#education">Education</a>
-                    <a class="nav-link d-none d-sm-block" href="#service">Service</a>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Projects
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="toDoList/index.html">To Do List</a></li>
-                            <li><a class="dropdown-item" href="dadJoke/index.html">Dad Joke App</a></li>
-                            <li><a class="dropdown-item" href="animalCards/index.html">Animal Trading Cards</a></li>
-                        </ul>
-                    </li>
-                    <a class="nav-link" href="contact.html"><span id="contact">Contact Me</span></a>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto" id="navbar-nav">
+                <a class="nav-link" href="../index.html">Home</a>
+                <a class="nav-link" href="../about.html">About</a>
+				<a class="nav-link d-none d-sm-block" href="../index.html#experience">Experience</a>
+				<a class="nav-link d-none d-sm-block" href="../index.html#education">Education</a>
+				<a class="nav-link d-none d-sm-block" href="../index.html#service">Service</a>
+			<li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Projects
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-start" id="dropdown-menu">
+                      <li><a class="dropdown-item" id="dropdown-menu-item" href="../toDoList/index.html">To Do List</a></li>
+                      <li><a class="dropdown-item" id="dropdown-menu-item" href="../dadJoke/index.html">Dad Joke App</a></li>
+                      <li><a class="dropdown-item" id="dropdown-menu-item" href="../animalCards/index.html">Animal Trading Cards</a></li>
+                    </ul>
+                  </li>
+                  <a class="nav-link" id="contact1" href="../contact.html"><span id="contact">Contact Me</span></a>
                 </div>
-            </div>
+          </div>
         </div>
     </nav>
-    <!-- Greeting -->
-    <h1 class="block-center">Web Development</h1>
-    <section class="container-fluid px-0">
-        <div class="row align-items-center">
-            <div class="col-md-6 order-2 order-md-1 text-left">
-                <div id="greeting">
-                    <p>Hey, I'm Tim! Thank you for visiting my site.</p>
-                    <p>If you're seeking a web developer with a desire to help you succeed, I would love to serve your team!</p>
-                </div>
-                <div class="row">
-                    <div class="col-md-12 text-center" id="btn">
-                        <a href="contact.html"><button type="button" class="btn btn-primary me-2">Contact Me</button></a>
-                        <a href="Projects.html"><button type="button" class="btn btn-danger ms-2">My Projects</button></a>
-                        <a href="photos/resume.pdf"><button type="button" class="btn btn-success ms-2">My Resume</button></a>
-                    </div>
-                    <div class="col-md-12">
-                        <div id="social">
-                            <a href="https://www.linkedin.com/in/tim-craig-b41298121/"><img class="icon" src="photos/linkedIn.png" alt="Linked In"></a>
-                            <a href="https://twitter.com/TimCraigHD"><img class="icon" src="photos\twitterlogo.png" alt="twitter logo"></a>
-                            <a href="https://github.com/Tim-28"><img class="icon" src="photos/github.png" alt="github logo"></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6 order-1 order-md-2 d-flex justify-content-center align-items-center"> 
-                <img id="myPic" src="photos\MyPic.jpg" alt="Tim's Photo" class="img-fluid">
-            </div>
-        </div>
-    </section>
 
-    <hr width="50%" color="navy" size="5em"/>
+<!-- Project Description -->
+<div class="description text-center">
+	<p>This project includes:</p>
+	<ul>
+		<li>Nesting elements within other elements in HTML.</li>
+		<li>Use of linear gradient to give depth to background colors in CSS.</li>
+		<li>Use of Bootstrap 5.3 for layout.</li>
+	</ul>
+	</div>
+</div>
 
-<!-- Experience -->
-    <div class="container">
-        <div class="employer">
-            <h2 id="experience">Experience</h2>
-            <section class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-md-6 text-center">
-                        <img src="bizImgs/Shilohlogo.png" alt="Shiloh Logo" class="img-fluid">
-                    </div>
-                    <div class="col-md-6 description">
-                        <h4>Director of Stewardship</h4>
-                        <ul>
-                            <li class="skills">Wordpress Website</li>
-                            <li class="skills">Built Webpages</li>
-                            <li class="skills">HTML & CSS</li>
-                            <li class="skills">Microsoft Excel, Powerpoint, Word, Publisher</li>
-                            <li class="time">22 years</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <div class="employer">
-            <section class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-md-6 text-center">
-                        <img src="bizImgs/petersLogo.png" alt="Peters Logo"class="img-fluid">
-                    </div>
-                    <div class="col-md-6 description">
-                        <h4>Installation Technician</h4>
-                        <ul>
-                            <li class="skills">Split Systems</li>
-                            <li class="skills">Ductless Minisplits</li>
-                            <li class="skills">System Switchouts</li>
-                            <li class="skills">EPA Section 608 Technician Certification</li>
-                            <li class="time">8 Months</li>
-                        </ul>
-                    </div>
-                </div>
-            </Section>
-        </div>
-        <div class="employer">
-            <section class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-md-6 text-center">
-                        <img src="bizImgs/boarmaxLogo.png" alt="Boarmax Logo" class="img-fluid">
-                    </div> 
-                    <div class="col-md-6 description">
-                        <h4>Lab Technician</h4>
-                        <ul>
-                            <li class="skills">Database Entry & Retrieval</li>
-                            <li class="skills">Cell Analysis</li>
-                            <li class="skills">Quality Control</li>
-                            <li class="time">8 Months</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </div>
-
-    
-    <hr width="50%" color="navy" size="5em"/>
-
-    <!-- Education -->
-    <div class="container">      
-        <div class="course">
-            <h2 id="education">Education</h2>
-            <section class="container-fluid">
-                <div class="row">
-                    <!-- <div class="col-3"></div> -->
-                    <div class="col-md-6 text-center">
-                        <ul>
-                            <li class="school">University of Missouri</h3>
-                            <li class="degree">Bachelor of Science in Education</li>
-                            <li class="skills">Secondary Language Arts</li>
-                            <li class="completed">Completed: 1998</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6 text-center">
-                        <ul>
-                            <li class="school">Udacity</li>
-                            <li class="degree">Intro to Programming Nanodegree</li>
-                            <li class="skills">HTML, CSS, Python, & Javascript</li>
-                            <li class="completed">Completed: 2023</li>
-                        </ul>
-                    </div>
-                    <!-- <div class="col-3"></div> -->
-                </div>
-            </section>
-        </div>
-        <div class="course">
-            <section class="container-fluid">
-                <div class="row">
-                    <!-- <div class="col-3"></div> -->
-                    <div class="col-md-6 text-center">
-                        <ul>
-                            <li class="school">Udemy</li>
-                            <li class="degree">Web Developers Course 2023 - Colt Steele</li>
-                            <li class="skills">HTML, CSS, Bootstrap, Javascript, Git, DOM,</li>
-                            <li class="skills">AJAX/AJAJ, API's, NodeJs, Express, MongoDB </li>
-                            <li class="completed">In Progress</li>
-                        </ul>
-                    </div>    
-                    <!-- <div class="col-3"></div> -->
-                    <div class="col-md-6 text-center">
-                        <ul>
-                            <li class="school">Free Code Camp</li>
-                            <li class="degree">Responsive Web Design</li>
-                            <li class="skills">HTML, CSS, & Javascript</li>
-                            <li class="completed">Completed: 2023</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-        </div>
-    </div>
-
-    <hr width="50%" color="navy" size="5em"/>
-<!-- Service -->
-    <div class="container">
-        <h2 id="service">Service</h2>
-        <div class="organization">
-            <section class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-md-6 text-center service-logo">
-                        <img src="bizImgs/sccLogo.png" alt="Shelbina Christian Church" class="img-fluid">
-                    </div>
-                    <div class="col-md-6 service-form text-left">
-                        <h4>Shelbina Christian Church</h4>
-                        <h5>Deacon</h5>
-                        <ul>
-                            <li class="skills">Construction</li>
-                            <li class="skills">Maintenance</li>
-                            <li class="skills">Teacher</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <div class="organization">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <div class="col-md-6 text-center service-logo">
-                        <img src="bizImgs/rohLogo.png" alt="Ray of Hope" class="img-fluid">
-                    </div>
-                    <div class="col-md-6 service-form text-left">
-                        <h4>Ray of Hope</h4>
-                        <h5>Volunteer</h5>
-                        <ul>
-                            <li class="skills">Construction</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="organization">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                        <div class="col-md-6 text-center service-logo">
-                            <img src="bizImgs/libraryLogo.png" id="library-pic" alt="Shelbina Carnegie Public Library" class="img-fluid">
-                        </div>
-                    <div class="col-md-6 service-form text-left">
-                        <h4>Shelbina Carnegie Public Library</h4>
-                        <h5>Boardmember</h5>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Prefooter -->
-    <div class="pre-footer" id="pre-footer">
-        <div class="row justify-content-center">
-            <div class="col-md-3"></div>
-            <div class="col-md-6">
-            <a class="justify-content-center"><img src="photos/topLogo.png" alt="Tim's logo"></a>
-            <p>Contact me today to learn more about how I can serve you.</p>
-            </div>
-            <div class="col-md-3"></div>
-        </div>
-    </div>
-    <!-- Footer -->
-    <footer>
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-4 order-2 order-md-1 text-center">
-                    <span class="footer-text" id="phone">573-795-0055</span>
-                </div>
-                <div class="col-md-4 order-1 order-md-2 text-center">
-                    <span><a class="footer-text" id="footer-contact" href="contact.html">Contact Me</a></span>
-                </div>
-                <div class="col-md-4 order-3 order-md-3 text-center">
-                    <a id="email" href="mailto:timcraig07@gmail.com? subject=subject text">timcraig07@gmail.com</a>
-                </div>
-            </div>
-        </div>
-    </footer>
-    
-<script src="app.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+<!-- Trading Cards -->
+<div class="flex-container">
+	<div class="flex-child tiger">
+		<div id="tiger">
+			<div id="tiger-outer">
+				<!-- animal name -->
+				<h3 id="tiger-h3">TIGER</h3>
+				<!-- animal's image -->
+				<div class="imgContainer align-items-center">
+					<img id="tiger-img" src="Tiger.jpg" alt="Picture of a tiger">
+				</div>
+				<div id="tiger-inner">
+					<!-- animal's interesting fact -->
+					<p class="caption">The Tiger's famous stripe pattern can even be seen when shaved.<sup>1</sup></p>
+					<ul>
+						<!-- animal's list items -->
+						<li><span>Scientific Name</span>: Panthera tigris<sup>2</sup> </li>
+						<li><span>Average Length</span>: 6 to 10 feet<sup>2</sup></li>
+						<li><span>Average Weight</span>: 220 to 660 pounds<sup>2</sup></li>
+						<li><span>Habitat</span>: Forests, grasslands, savanahs, and swamps<sup>2</sup></li>
+					</ul>
+					<!-- animal's description -->
+					<p>Tigers can carry twice their body weight 10 feet up a tree.  They can see six times better than humans at night.  Their stripe pattern camouflages them in grasslands and forests. A cub may stay with its mother two years after its birth.<sup>3</sup></p>
+				</div>
+			</div>
+			<div class="attribution">
+				<p >Attribution Section</p>
+				<p>Images:</p>
+				<ul>
+					<li>https://www.pexels.com</li>
+				</ul>
+				<ol>
+					<li>https://en.wikipedia.org</li>
+					<li>https://www.pbs.org</li>
+					<li>https://animals.sandiegozoo.org</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+	<div class="flex-child cardinal">
+		<div id="cardinal">
+			<div id="cardinal-outer">
+				<!-- animal's name -->
+				<h3 id="cardinal-h3">CARDINAL</h3>
+				<!-- animal's image -->
+				<div class="imgContainer align-items-center">
+					<img id="cardinal-img" src="cardinal.jpg" alt="Picture of a cardinal">
+				</div>
+				<div id="cardinal-inner">
+					<!-- animal's interesting fact -->
+					<p class="caption">A flock of Cardinals is called a "Radiance".</p>
+					<ul>
+						<!-- animal's list items -->
+						<li><span>Scientific Name</span>: Cardinalis cardinalis<sup>1</sup> </li>
+						<li><span>Average Length</span>: 8.3 to 9.1 inches<sup>1</sup></li>
+						<li><span>Average Weight</span>: 33.6 to 65 grams<sup>1</sup></li>
+						<li><span>Habitat</span>: Woodland edges, wooded wetlands, and suburban areas.<sup>1</sup></li>
+					</ul>
+					<!-- animal's description -->
+					<p>The adult northern cardinal's diet consists mainly of weed seeds, grains, and fruits. The male's plumage color is produced from carotenoid pigments in their diet. The male's mask is black, while the female's mask is gray.<sup>1</sup></p>
+				</div>
+			</div>
+			<div class="attribution">
+				<p>Attribution Section</p>
+				<p>Images:</p>
+				<ul>
+					<li>Unsplash: Timothy Dykes</li>
+				</ul>
+				<ol>
+					<li>https://en.wikipedia.org</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+	<div class="flex-child elephant">
+		<div id="elephant">
+			<div id="elephant-outer">
+				<!-- animal name -->
+				<h3 id="elephant-h3">ELEPHANT</h3>
+				<!-- animal's image -->
+				<div class="imgContainer align-items-center">
+					<img id="elephant-img" src="Elephant.jpg" alt="Picture of a elephant">
+				</div>
+				<div id="elephant-inner">
+					<!-- animal's interesting fact -->
+					<p class="caption">An elephant's sense of smell may be four times greater than a bloodhound.<sup>1</sup></p>
+					<ul>
+						<!-- animal's list items -->
+						<li><span>Scientific Name</span>: Elephantidae<sup>1</sup> </li>
+						<li><span>Average Length</span>: 10 to 11 feet<sup>1</sup></li>
+						<li><span>Average Weight</span>: 2.9 to 3.9 short tons<sup>1</sup></li>
+						<li><span>Habitat</span>: Forests, savannahs, deserts, wetlands, and near lakes<sup>1</sup></li>
+					</ul>
+					<!-- animal's description -->
+					<p>African elephants have two finger-like extensions at the tip of the trunk that allow them to pluck small food. Elephants can lift up to 770 pounds with their trunk. The trunk of an adult Asian elephant is capable of retaining 8.5 L (2.2 US gal) of water.<sup>1</sup></p>
+				</div>
+			</div>
+			<div class="attribution">
+				<p >Attribution Section</p>
+				<p>Images:</p>
+				<ul>
+					<li> https://www.pexels.com</li>
+				</ul>
+				<ol>
+					<li>https://en.wikipedia.org</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- row 2 -->
+<div class="flex-container">
+	<div class="flex-child giraffe">
+		<div id="giraffe">
+			<div id="giraffe-outer">
+				<!-- animal name -->
+				<h3 id="giraffe-h3">GIRAFFE</h3>
+				<!-- animal's image -->
+				<div class="imgContainer align-items-center">
+				<img id="giraffe-img" src="giraffe.jpg" alt="Picture of a giraffe">
+				</div>
+				<div id="giraffe-inner">
+					<!-- animal's interesting fact -->
+					<p class="caption">Males use a tactic called "necking" a form of combat using the neck in attempt to establish dominance.<sup>1</sup></p>
+					<ul>
+						<!-- animal's list items -->
+						<li><span>Scientific Name</span>: Giraffa<sup>1</sup> </li>
+						<li><span>Average Length</span>: Up to 19 feet tall<sup>1</sup></li>
+						<li><span>Average Weight</span>: 1,825 to 2,628 pounds<sup>1</sup></li>
+						<li><span>Habitat</span>: Savannahs and woodlands.<sup>1</sup></li>
+					</ul>
+					<!-- animal's description -->
+					<p>Giraffes eat leaves, fruits, and flowers, mostly from acacia species. Because of their long necks they reach heights other herbivore cannot.<sup>1</sup></p>
+				</div>
+			</div>
+			<div class="attribution">
+				<p >Attribution Section</p>
+				<p>Images:</p>
+				<ul>
+					<li>Unsplash: Andreas Dress</li>
+				</ul>
+				<ol>
+					<li>https://en.wikipedia.org</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+	<div class="flex-child kangaroo">
+		<div id="kangaroo">
+			<div id="kangaroo-outer">
+				<!-- animal's name -->
+				<h3 id="kangaroo-h3">KANGAROO</h3>
+				<!-- animal's image -->
+				<div class="imgContainer align-items-center">
+				<img id="kangaroo-img" src="kangaroo.jpg" alt="Picture of a kangaroo">
+				</div>
+				<div id="kangaroo-inner">
+					<!-- animal's interesting fact -->
+					<p class="caption">A group of kangaroos is known as a "mob", "court", or a "troupe".<sup>1</sup></p>
+					<ul>
+						<!-- animal's list items -->
+						<li><span>Scientific Name</span>: Macropodidae<sup>1</sup> </li>
+						<li><span>Average Length</span>: 6 feet 7 inches<sup>1</sup></li>
+						<li><span>Average Weight</span>: 200 pounds<sup>1</sup></li>
+						<li><span>Habitat</span>: Grasslands<sup>1</sup></li>
+					</ul>
+					<!-- animal's description -->
+					<p>Mother kangaroos have a pouch for carrying young kangaroos. Young kangaroos are known as "joeys".  A kangaroo can reach speeds up to 43 miles per hour.<sup>1</sup></p>
+				</div>
+			</div>
+			<div class="attribution">
+				<p>Attribution Section</p>
+				<p>Images:</p>
+				<ul>
+					<li>Unsplash: Ashish Upadhyay</li>
+				</ul>
+				<ol>
+					<li>https://en.wikipedia.org</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+	<div class="flex-child flamingo">
+		<div id="flamingo">
+			<div id="flamingo-outer">
+				<!-- animal name -->
+				<h3 id="flamingo-h3">FLAMINGO</h3>
+				<!-- animal's image -->
+				<div class="imgContainer align-items-center">
+				<img id="flamingo-img" src="flamingo.jpg" alt="Picture of a flamingo">
+				</div>
+				<div id="flamingo-inner">
+					<!-- animal's interesting fact -->
+					<p class="caption">Flamingos live in colonies that can number into the thousands.<sup>1</sup></p>
+					<ul>
+						<!-- animal's list items go here -->
+						<li><span>Scientific Name</span>: Phoenicopterus ruber<sup>1</sup> </li>
+						<li><span>Average Length</span>: 3.9 to 4.7 feet<sup>1</sup></li>
+						<li><span>Average Weight</span>: weigh up to 7.7 pounds<sup>1</sup></li>
+						<li><span>Habitat</span>: Shallows of salt or brackish water or alkaline lakes.<sup>2</sup></li>
+					</ul>
+					<!-- animal's description -->
+					<p>A flock of flamingos is referred to as a "flamboyance".  Flamingos are known to stand on one leg. Although it's uncertain as to why, one theory is that it conserves energy.<sup>1</sup></p>
+				</div>
+			</div>
+			<div class="attribution">
+				<p >Attribution Section</p>
+				<p>Images:</p>
+				<ul>
+					<li>Unsplash: Edrick Krozendijk</li>
+				</ul>
+				<ol>
+					<li>https://en.wikipedia.org</li>
+					<li>https://nationalzoo.si.edu</li>
+				</ol>
+			</div>
+		</div>
+	</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<!-- Prefooter -->
+<div class="pre-footer" id="pre-footer">
+	<div class="row justify-content-center">
+		<div class="col-md-3"></div>
+		<div class="col-md-6">
+		<a class="justify-content-center"><img src="../photos/topLogo.png" alt="Tim's logo"></a>
+		<p>Contact me today to learn more about how I can serve you.</p>
+		</div>
+		<div class="col-md-3"></div>
+	</div>
+</div>
+<!-- Footer -->
+<footer>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-md-4 order-2 order-md-1 text-center">
+				<span class="footer-text" id="phone">573-795-0055</span>
+			</div>
+			<div class="col-md-4 order-1 order-md-2 text-center">
+				<span><a class="footer-text" id="footer-contact" href="../contact.html">Contact Me</a></span>
+			</div>
+			<div class="col-md-4 order-3 order-md-3 text-center">
+				<a id="email" href="mailto:timcraig07@gmail.com? subject=subject text">timcraig07@gmail.com</a>
+			</div>
+		</div>
+	</div>
+</footer>
 </body>
 </html>
