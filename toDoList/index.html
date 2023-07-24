@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List - Tim Craig</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link rel="icon" href="../photos/topLogo.png">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="mainNavbar" class="navbar sticky-top navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html"><img id="logo" src="../photos/topLogo.png" alt="Logo"><img id="logoName" src="../photos/name.png" alt="Logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                <a class="nav-link" href="../index.html">Home</a>
+                <a class="nav-link" href="../about.html">About</a>
+                    <a class="nav-link d-none d-sm-block" href="../index.html#experience">Experience</a>
+                    <a class="nav-link d-none d-sm-block" href="../index.html#education">Education</a>
+                    <a class="nav-link d-none d-sm-block" href="../index.html#service">Service</a>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Projects
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-start" id="dropdown-menu">
+                      <li><a class="dropdown-item" id="dropdown-menu-item" href="../toDoList/index.html">To Do List</a></li>
+                      <li><a class="dropdown-item" id="dropdown-menu-item" href="../dadJoke/index.html">Dad Joke App</a></li>
+                      <li><a class="dropdown-item" id="dropdown-menu-item" href="../animalCards/index.html">Animal Trading Cards</a></li>
+                    </ul>
+                  </li>
+                  <a class="nav-link" id="contact1" href="../contact.html"><span id="contact">Contact Me</span></a>
+                </div>
+          </div>
+        </div>
+    </nav>
+    <!-- Project Description -->
+    <div class="description text-center">
+        <p>This project includes:</p>
+        <ul>
+            <li>Event listener within the Document Object Model(DOM).</li>
+            <li>Giving users the ability to enter information into a list, checking off items, and delete items.</li>
+            <li>Setting attributes onto elements within the DOM.</li>
+        </ul>
+        </div>
+    </div>
+    <!-- Heading -->
+    <div class="container">
+        <div class="container" id="headers">
+            <div class="row justify-content-center">
+                <div class="col-md-9">
+                    <div class="card border-0">
+                        <div class="d-flex justify-content-center align-items-center">
+                            <img src="toDoList.jpg" class="card-img-top-fluid shrink-image align-items-center" alt="view of mountains">
+                        </div>
+    <!-- Card  -->
+                        <div class="card-body">
+                            <h1 id="charge">"I lift up my eyes to the mountains—where does my help come from? My help comes from the Lord,
+                            the Maker of heaven and earth." -Psalm 121:1&2</h1>
+                            <div class="d-flex justify-content-left align-items-left"></div>
+                                <h2>Things to Do:</h2>
+                                <form id="form">
+                                    <input type="text" id="todo" placeholder="Type here">
+                                    <button id="addBtn">ADD</button>
+                                </form>
+    <!-- List -->
+                                <ul id="container">
+
+                                </ul>
+                            </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+<!-- Pre-footer -->
+<div class="pre-footer" id="pre-footer">
+    <div class="row justify-content-center">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+        <a class="justify-content-center"><img src="../photos/topLogo.png" alt="Tim's logo"></a>
+        <p>Contact me today to learn more about how I can serve you.</p>
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+</div>
+<!-- Footer -->
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 order-2 order-md-1 text-center">
+                    <span class="footer-text" id="phone">573-795-0055</span>
+                </div>
+                <div class="col-md-4 order-1 order-md-2 text-center">
+                    <span><a class="footer-text" id="footer-contact" href="../contact.html">Contact Me</a></span>
+                </div>
+                <div class="col-md-4 order-3 order-md-3 text-center">
+                    <a id="email" href="mailto:timcraig07@gmail.com? subject=subject text">timcraig07@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
