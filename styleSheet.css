@@ -8,6 +8,7 @@ body {
     min-height: 10vh;
     position: relative;
     overflow-x: hidden;
+    --article-load-delay: 300ms;
 }
 
 nav{
@@ -82,6 +83,10 @@ hr {
 
 #greeting {
     margin-left: 7em;
+    animation: article-load 300ms ease-in var(--article-load-delay);
+    animation-fill-mode: forwards;
+    transform: translateY(-20px);
+    opacity: 0;
 }
 
 ol, ul {
@@ -159,6 +164,17 @@ p {
     margin-bottom: 15px;
 }
 
+.employer, .course, .organization {
+    transform: translateX(100px);
+    opacity: 0;
+    transition: 800ms;
+}
+
+.employer.show, .course.show, .organization.show {
+    transform: translateX(0);
+    opacity: 1;
+}
+
 .employer .col-md-6.description {
     padding-left: 10em;
 }
@@ -169,12 +185,18 @@ p {
 
 .course{
     margin-top: 15px;
-    margin-bottom: 15px;    
+    margin-bottom: 15px;
+    transform: translateX(100px);
+    opacity: 0;
+    transition: 800ms;   
 }
 
 .organization{
     margin-top: 15px;
-    margin-bottom: 15px;    
+    margin-bottom: 15px;
+    transform: translateX(100px);
+    opacity: 0;
+    transition: 800ms;
 }
 
 h3 {
@@ -340,6 +362,20 @@ a:hover {
     margin-bottom: 5em;
 }
 
+.pdf-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; /* Adjust this value to control the aspect ratio */
+    overflow: hidden;
+}
+.pdf-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 @media(max-width: 1102px) {
     .organization .col-md-6.service-form.text-left, .employer .col-md-6{
         text-align: center;
@@ -383,5 +419,16 @@ a:hover {
     .project-description {
         margin: .5em;
     }
+}
 
+@keyframes article-load {
+    0% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }
