@@ -108,6 +108,9 @@ h1{
 #myPic {
     width: 500px;
     border-radius: 10% 30% 50% 70%;
+    animation: article-load 1000ms ease-in var(--article-load-delay);
+    animation-fill-mode: forwards;
+    opacity: 0;
 }
 
 .img-fluid.project {
