@@ -83,7 +83,7 @@ hr {
 
 #greeting {
     margin-left: 7em;
-    animation: article-load 300ms ease-in var(--article-load-delay);
+    animation: article-load 1000ms ease-in var(--article-load-delay);
     animation-fill-mode: forwards;
     transform: translateY(-20px);
     opacity: 0;
@@ -210,8 +210,6 @@ h3 {
 .project-div{
     margin-top: 5em;
 }
-
-
 
 .container-fluid {
     width: 100%;
